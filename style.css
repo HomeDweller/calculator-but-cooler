@@ -1,0 +1,24 @@
+body {
+    background-color: #808080;
+    margin: 0;
+    padding: 0 4vw;
+    
+}
+
+.input-area {
+    min-width: 90vw;
+    min-height: 10vh;
+    font-size: 20px;
+}
+
+.buttons {
+    background: brown;
+    min-height: 40vh;
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+}
+
+.equals  {
+    grid-column: 1 / span 4;
+}
+

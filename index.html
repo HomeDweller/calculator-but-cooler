@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Cooler calculator</title>
+</head>
+
+<body>
+    <div class="display">
+        <input type="text" id="input-area" class="input-area">
+
+    </div>
+    <div class="buttons">
+        <button class="reset" onclick="reset()">🠔</button>
+        <button class="num" onClick="add('1')">1</button>
+        <button class="num" onClick="add('2')">2</button>
+        <button class="num" onClick="add('3')">3</button>
+        <button class="num" onClick="add('4')">4</button>
+        <button class="num" onClick="add('5')">5</button>
+        <button class="num" onClick="add('6')">6</button>
+        <button class="num" onClick="add('7')">7</button>
+        <button class="num" onClick="add('8')">8</button>
+        <button class="num" onClick="add('9')">9</button>
+        <button class="num" onClick="add('0')">0</button>
+        <button class="op" onClick="add('+')">+</button>
+        <button class="op" onClick="add('-')">-</button>
+        <button class="op" onClick="add('*')">*</button>
+        <button class="op" onClick="add('/')">/</button>
+        <button class="op" onClick="add('.')">.</button>
+        <button class="equals" onClick="solve()">=</button>
+    </div>
+    <script defer src="/script.js"></script>
+</body>
+
+</html>
